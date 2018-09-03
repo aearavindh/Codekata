@@ -9,7 +9,7 @@ Scanner in = new Scanner(System.in);
 num = in.nextInt();
 if(num<0)
 System.out.println("Invalid");
-elseif(num%2==0)
+else if(num%2==0)
 System.out.println("Even");
 else
 System.out.println("Odd");
